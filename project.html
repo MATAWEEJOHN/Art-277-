@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+<style>
+    *{
+        box-sizing: border-box;   
+    }
+    body{
+        margin: 0px;
+        background-image: url(3.jpg.png);
+        background-size: cover;
+    }
+    .container{
+        max-width: 1200px;
+        margin: auto;
+        overflow: auto;
+    }
+    .gallery{
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 390px;
+
+    }
+    .gallery img{
+        width: 100%;
+        height: auto;
+    }
+    .desc{
+        padding: 15px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+         
+        <div class="gallery">
+            <img src="church construction underway in Liberia.jpg">
+            <div class="desc">Church construction<br /> in Liberia</div>
+        </div>
+        <div class="gallery">
+            <img src="church roofing project.jpg">
+            <div class="desc">Church roofing<br />porject</div>
+        </div>
+        <div class="gallery">
+            <img src="mission trips.jpg">
+            <div class="desc">mission trips</div>
+        </div>
+    </div>
+</body>
+</html>
